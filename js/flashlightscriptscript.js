@@ -14,7 +14,7 @@ const key = document.querySelector(".key");
 function keyFound() {
   console.log("test");
   alert("nice, je hebt de key gevonden");
-  window.location.href = "index.html";
+  window.location.href = "puzzlecomplete.html ";
 }
 
 key.addEventListener("click", keyFound);
