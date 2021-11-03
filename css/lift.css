@@ -1,5 +1,5 @@
 body {
-  background-image: url(/images/lift.jpg);
+  background-image: url(https://cdn.discordapp.com/attachments/796487738684997664/905488375899906108/lift.jpg);
   background-size: cover;
 }
 .lift-menu {
@@ -21,3 +21,6 @@ p {
 .codesheet {
   margin-left: 60px;
 }
+
+
+
