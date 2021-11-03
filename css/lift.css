@@ -1,0 +1,23 @@
+body {
+  background-image: url(/images/lift.jpg);
+  background-size: cover;
+}
+.lift-menu {
+  background-color: #27003d;
+  width: 700px;
+  height: 500px;
+  margin-top: 300px;
+  margin-left: 600px;
+  border-radius: 20px;
+}
+.lift-answers {
+  margin-left: 210px;
+}
+p {
+  margin-left: 20px;
+  margin-top: 50px;
+  color: white;
+}
+.codesheet {
+  margin-left: 60px;
+}
