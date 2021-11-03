@@ -1,0 +1,11 @@
+body {
+  background-color: #ff7b00;
+}
+.menu {
+  /* background-color: ; */
+  margin: auto;
+  background-image: url(https://cdn.discordapp.com/attachments/753574270843748425/905056180752224287/NicePng_burned-paper-png_644894.png);
+  width: 45%;
+  border: 2px solid;
+  padding: 10px;
+}

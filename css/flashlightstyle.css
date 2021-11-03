@@ -1,0 +1,28 @@
+/* Flashlight Overlay */
+:root {
+  cursor: none;
+  --cursorX: 50vw;
+  --cursorY: 50vh;
+}
+:root:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 5vmax at var(--cursorX) var(--cursorY),
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 80%,
+    rgba(0, 0, 0, 0.99) 100%
+  );
+}
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/753574270843748425/905055267761291264/658353.jpg");
+}
+.key {
+  background-image: url("https://cdn.discordapp.com/attachments/753574270843748425/905053130230747136/pngaaa.com-5604358.png");
+  width: 100%;
+  height: 100%;
+}
