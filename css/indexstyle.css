@@ -1,7 +1,7 @@
 body {
   height: 1300px;
   width: auto;
-  background-image: url(https://cdn.discordapp.com/attachments/796487738684997664/905785159499018250/1102367.jpg);
+  background-image: url(/images/wp3080349.jpg);
   background-size: cover;
   background-color: #27003d;
 }
@@ -23,5 +23,13 @@ body {
 button {
   margin: auto;
   margin-left: 400px;
-  margin-top: 300px;
+  margin-top: 250px;
+  height: 30px;
+  width: 60px;
+  background-color: #616161;
+  border: none;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #303030;
 }

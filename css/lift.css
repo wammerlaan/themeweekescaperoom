@@ -21,6 +21,9 @@ p {
 .codesheet {
   margin-left: 60px;
 }
-
-
-
+.nextbtn {
+}
+.lift-menu-text {
+  font-family: "Roboto", sans-serif;
+  padding-left: 25px;
+}
