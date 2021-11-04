@@ -1,4 +1,8 @@
 body {
+  height: 1300px;
+  width: auto;
+  background-image: url(https://cdn.discordapp.com/attachments/796487738684997664/905785159499018250/1102367.jpg);
+  background-size: cover;
   background-color: #27003d;
 }
 .menu {
