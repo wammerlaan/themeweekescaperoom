@@ -1,0 +1,30 @@
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/753574270843748425/905795136267632660/1z6er86krdq51.png);
+  background-size: cover;
+}
+.lift-menu {
+  background-color: #27003d;
+  width: 700px;
+  height: 500px;
+  margin-top: 300px;
+  margin-left: 600px;
+  border-radius: 20px;
+}
+.lift-answers {
+  margin-left: 210px;
+}
+p {
+  margin-left: 20px;
+  margin-top: 50px;
+  color: white;
+}
+.codesheet {
+  margin-left: 60px;
+}
+.nextbtn {
+  
+}
+.lift-menu-text {
+  font-family: "Roboto", sans-serif;
+  padding-left: 25px;
+}
