@@ -17,7 +17,6 @@ let i = setInterval(function () {
 
   counter++;
   if (counter === 6) {
-    window.location.href = "deathscreen.html";
     clearInterval(i);
   }
 }, 1000);
