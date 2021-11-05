@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lol u ded</title>
+  </head>
+  <body>
+    <audio autoplay>
+      <source src="/files/Fnaf 1 Full Jumpscare Sound.mp3" type="audio/mpeg" />
+    </audio>
+    <img src="https://wallpapercave.com/wp/wp9021205.jpg" />
+  </body>
+  <script>
+    let counter = 0;
+    let i = setInterval(function () {
+      console.log("test" + counter);
+
+      counter++;
+      if (counter === 2) {
+        console.log(counter);
+        window.location.href = "index.html";
+        clearInterval(i);
+      }
+    }, 1000);
+  </script>
+</html>

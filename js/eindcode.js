@@ -10,3 +10,14 @@ function answer() {
 }
 
 nextbtn.addEventListener("click", answer);
+
+let counter = 0;
+let i = setInterval(function () {
+  console.log("test" + counter);
+
+  counter++;
+  if (counter === 6) {
+    window.location.href = "deathscreen.html";
+    clearInterval(i);
+  }
+}, 1000);

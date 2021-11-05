@@ -22,6 +22,11 @@ p {
   margin-left: 60px;
 }
 .nextbtn {
+  border: none;
+  background-color: orange;
+}
+.nextbtn:hover {
+  background-color: #b36200;
 }
 .lift-menu-text {
   font-family: "Roboto", sans-serif;

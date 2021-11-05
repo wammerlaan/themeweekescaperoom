@@ -5,7 +5,7 @@ body {
 .lift-menu {
   background-color: #27003d;
   width: 700px;
-  height: 500px;
+  height: 300px;
   margin-top: 300px;
   margin-left: 600px;
   border-radius: 20px;
@@ -22,9 +22,22 @@ p {
   margin-left: 60px;
 }
 .nextbtn {
-  
+  border: none;
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+}
+.nextbtn:hover {
+  background-color: #b36200;
 }
 .lift-menu-text {
   font-family: "Roboto", sans-serif;
   padding-left: 25px;
+}
+.backtohomebutton {
+  border: none;
+  background-color: orange;
+  font-family: "Roboto", sans-serif;
+}
+.backtohomebutton:hover {
+  background-color: #b36200;
 }
